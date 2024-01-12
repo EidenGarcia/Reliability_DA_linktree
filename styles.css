@@ -18,9 +18,11 @@ body {
     margin-bottom: 20px;
 }
 
-.portal-title {
-    font-size: 24px;
-    margin-bottom: 20px;
+.portal-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number '3' as needed */
+    gap: 10px; /* Adjust the gap between buttons as needed */
+    justify-content: center;
 }
 
 .title-container {
